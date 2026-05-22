@@ -1,6 +1,6 @@
 # DevBlog
 
-Projeto front-end para simular a criação de um post consumindo uma API aberta. A interface tem estilo de blog para desenvolvimento com uma vibe inspirada em terminal e matriz.
+Projeto front-end para simular a criação de um post consumindo uma API aberta. A interface tem estilo de blog para desenvolvimento com uma vibe inspirada em terminal e matrix.
 
 ## Tecnologias
 
