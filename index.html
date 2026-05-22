@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="matrix-rain" aria-hidden="true">
+        <span>010101001101</span>
+        <span>function()</span>
+        <span>POST /api</span>
+        <span>console.log</span>
+        <span>10110010110</span>
+        <span>async await</span>
+        <span>{ dev: true }</span>
+        <span>fetch(data)</span>
+        <span>npm run dev</span>
+        <span>01101001100</span>
+        <span>return json</span>
+        <span>&lt;/html&gt;</span>
+    </div>
+
+    <header class="page-header">
+        <p class="eyebrow">Compartilhando seu Progresso</p>
+        <h1>DevBlog</h1>
+        <p>Publique ideias, bugs resolvidos e pensamentos de código em uma interface com energia de terminal.</p>
+    </header>
+
+    <main class="container">
+        <section class="composer" aria-labelledby="form-title">
+            <p class="panel-label">composer</p>
+            <h2 id="form-title">Novo post</h2>
+
+            <form id="form-post">
+                <div class="field">
+                    <label for="titulo">Título</label>
+                    <input
+                        type="text"
+                        id="titulo"
+                        name="titulo"
+                        placeholder="Digite o título do post"
+                        required
+                    >
+                </div>
+
+                <div class="field">
+                    <label for="conteudo">Conteúdo</label>
+                    <textarea
+                        id="conteudo"
+                        name="conteudo"
+                        rows="7"
+                        placeholder="Escreva o conteúdo da publicação"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Publicar no DevBlog</button>
+                <p id="status-post" class="status-post" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="preview" aria-labelledby="preview-title">
+            <p class="panel-label">preview</p>
+            <h2 id="preview-title">Post criado</h2>
+
+            <article class="post-card">
+                <p class="post-label">Título/Conteúdo</p>
+                <h3 id="renderizador-titulo">Seu título aparecerá aqui</h3>
+                <p id="renderizador-conteudo">O conteúdo enviado será renderizado aqui após a publicação.</p>
+            </article>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
