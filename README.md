@@ -25,4 +25,7 @@ https://jsonplaceholder.typicode.com/posts
 
 ## Como executar
 
-Abra o arquivo `index.html` no navegador ou use uma extensão como Live Server no VS Code.
+Faça o pull do projeto e Abra o arquivo `index.html` no navegador ou use uma extensão como Live Server no VS Code.
+
+## Link de Acesso rápido
+https://hexnz.github.io/posting--page/
